@@ -1,0 +1,9 @@
+let nome = prompt('Digite seu nome');
+alert('Olá ' + nome + ', seja bem-vindo(a)!');
+alert('vou definir se você pode tirar uma carteira de motorista');
+let idade = prompt('Digite sua idade');
+if (idade >= 18) {
+    alert('Pode tirar a habilitação!');
+} else {
+    alert('Não pode tirar habilitação');
+}
