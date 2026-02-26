@@ -1,0 +1,9 @@
+alert('Olá usuario')
+let diaDaSemana = prompt('qual é o dia da semana?');
+let fimDeSemana1 = 'Domingo'
+let fimDeSemana2 = 'Sábado'
+if (diaDaSemana == fimDeSemana2 || diaDaSemana == fimDeSemana1 ) {
+    alert('Bom final de semana!');
+} else {
+    alert('Boa semana!');
+}
